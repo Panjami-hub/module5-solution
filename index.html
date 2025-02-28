@@ -7,8 +7,8 @@
     <title>David Chu's China Bistro</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
   </head>
 <body>
   <header>
@@ -45,6 +45,10 @@
               <a href="#" onclick="$dc.loadMenuCategories();">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
+            <li id="navSpecialsButton">
+              <a href="#" onclick="$dc.loadRandomCategory();">
+                <span class="glyphicon glyphicon-star"></span><br class="hidden-xs"> Specials</a>
+            </li>
             <li>
               <a href="#">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
@@ -65,8 +69,8 @@
 
   <div id="call-btn" class="visible-xs">
     <a class="btn" href="tel:410-602-5008">
-    <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
+      <span class="glyphicon glyphicon-earphone"></span>
+      410-602-5008
     </a>
   </div>
   <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
@@ -106,3 +110,4 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
